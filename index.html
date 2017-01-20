@@ -76,20 +76,32 @@
 </div>
 
 <!-- Dropdown -->
-  <div class="row">
+    <div class="row">
+      <div class="container">
+        <div class="position">
+          <button type="button" class="btn btn-success dropdown-toggle" onclick="toggleNavPanel('sections_panel')">Navigator <span id="navarrow">&#9662;</span></button>
+            <div class="panel_panel" id="sections_panel">
+              <div class="panel">
+               <div>
+                Try adding things like more child div containers, links, buttons, menus, pictures, paragraphs, videos, etc... This area can display way more than just menu buttons or links. You will see a lot of modern sites even adding graphics, icons, animations and images to their drop down menus nowadays. So get creative partner.
+              </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+<!-- Show and hide -->
     <div class="container">
-      <div id="sections_btn_holder">
-        <button type="button" class="btn btn-success dropdown-toggle" onclick="toggleNavPanel('sections_panel')">Navigator <span id="navarrow">&#9662;</span></button>
-          <div class="panel" id="sections_panel">
-            <div>
-            Try adding things like more child div containers, links, buttons, menus, pictures, paragraphs, videos, etc... This area can display way more than just menu buttons or links. You will see a lot of modern sites even adding graphics, icons, animations and images to their drop down menus nowadays. So get creative partner.
-            </div>
-          </div>
+      <div class="item-wrap">
+        <div class="box-wrap"><div class="box" id="demo"></div></div>
+
+        <button class="btn-primary" type="button" onclick="hide()">Off</button>
+        <button class="btn-primary" type="button" onclick="show()">On</button>
       </div>
     </div>
-  </div>
 
-
+<!-- Quiz -->
 
 
 
