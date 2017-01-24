@@ -59,7 +59,6 @@ function emailVerify(){
 }
 
 // DROPDOWN TUTORIAL
-
 function toggleNavPanel(x){
     var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH = "150px";
     if(panel.style.height === maxH){
@@ -79,3 +78,9 @@ function hide () {
 function show () {
 	document.getElementById('demo').style.display='block'
 }
+
+// CANVAS
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "green";
+ctx.fillRect(10, 10, 100, 100);
